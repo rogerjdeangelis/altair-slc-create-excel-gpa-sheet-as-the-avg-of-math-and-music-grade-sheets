@@ -1,0 +1,6 @@
+                               GPA = average of MATH and MUSIC grades, joined on STUDENT
+
+student  math  music  mean
+ALEX       83     83    83
+MARY       64     63  63.5
+
