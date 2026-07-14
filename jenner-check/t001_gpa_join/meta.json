@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_gpa_join",
+  "source_file": "altair-slc-create-excel-gpa-sheet-as-the-avg-of-math-and-music-grade-sheets.sas",
+  "source_blob_sha": "219a4d36eb2f44c5d172c009db5e8d33dbf65930",
+  "source_commit": "61d6e4264cf026d61822b4ccce7d8d526982cba5",
+  "notes": "GPA = average of MATH and MUSIC grades. Builds the two grade tables from the repo's own cards4 data (MARY 64 / JOHN 70 / MILE 83 / ALEX 83 / JOHN 93 and JOSH 74 / JANE 70 / ALEX 83 / MARY 63 / MIKE 93), then joins on student and averages the grades in PROC SQL - the same join+average the proc r (sqldf) and proc python (pandasql) solutions perform, in plain SAS. Output matches the workbook's GPA sheet in the source (MARY 63.5, ALEX 83). Excel engine / proc r / proc python / d:\\xls paths dropped as Windows+external-runtime specific."
+}
